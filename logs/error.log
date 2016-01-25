@@ -1,0 +1,28 @@
+2016-01-23T02:24:56.051Z - error: Error when processing render request Error during rendering report: Template must contains _id, shortid or content attribute. Error: Template must contains _id, shortid or content attribute.
+    at Templating.handleBeforeRender (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:33:13)
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:172:41
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:151:24
+From previous event:
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:149:53
+    at Array.map (native)
+    at mapSeries (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:148:28)
+    at ListenerCollection.fire (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:167:16)
+    at null.<anonymous> (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/lib/reporter.js:129:43)
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/listeners.js:42:12
+    at Array.forEach (native)
+    at collection.fire (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/listeners.js:28:9)
+    at Toner.render (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/toner.js:107:24)
+2016-01-23T02:25:00.071Z - error: Error when processing render request Error during rendering report: Template must contains _id, shortid or content attribute. Error: Template must contains _id, shortid or content attribute.
+    at Templating.handleBeforeRender (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:33:13)
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:172:41
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:151:24
+From previous event:
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:149:53
+    at Array.map (native)
+    at mapSeries (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:148:28)
+    at ListenerCollection.fire (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/listener-collection/lib/listenerCollection.js:167:16)
+    at null.<anonymous> (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/lib/reporter.js:129:43)
+    at /home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/listeners.js:42:12
+    at Array.forEach (native)
+    at collection.fire (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/listeners.js:28:9)
+    at Toner.render (/home/jonathan/Documents/NodeJs/pdf/node_modules/jsreport/node_modules/jsreport-core/node_modules/toner/lib/toner.js:107:24)
